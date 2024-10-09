@@ -1,10 +1,10 @@
 import React from 'react'
-import HookMegaSena from './components/HookMegaSena'
+import Campanha from './components/Campanha'
 
 const App = () => {
   return (
     <div>
-      <HookMegaSena />
+      <Campanha mes="janeiro" />
     </div>
   )
 }

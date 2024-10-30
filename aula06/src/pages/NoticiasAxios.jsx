@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react'
-import { axios } from 'axios'
+import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+import axios from 'axios'
 
 const url = "http://localhost:3000/noticias"
 
